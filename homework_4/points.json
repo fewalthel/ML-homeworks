@@ -1,0 +1,39 @@
+{
+    "points": [
+        {
+            "id": 1,
+            "name": "Красная площадь",
+            "coordinates": [55.7539, 37.6208],
+            "priority": 10,
+            "visit_time": 30
+        },
+        {
+            "id": 2,
+            "name": "Парк Горького",
+            "coordinates": [55.7297, 37.6047],
+            "priority": 8,
+            "visit_time": 45
+        },
+        {
+            "id": 3,
+            "name": "ВДНХ",
+            "coordinates": [55.8297, 37.6347],
+            "priority": 7,
+            "visit_time": 60
+        },
+        {
+            "id": 4,
+            "name": "Музей космонавтики",
+            "coordinates": [55.8234, 37.6394],
+            "priority": 6,
+            "visit_time": 40
+        },
+        {
+            "id": 5,
+            "name": "Третьяковская галерея",
+            "coordinates": [55.7417, 37.6208],
+            "priority": 9,
+            "visit_time": 90
+        }
+    ]
+} 

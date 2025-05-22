@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ceabbf5200af4bc44c5e5467bf864b1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7ceabbf5200af4bc44c5e5467bf864b1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7ceabbf5200af4bc44c5e5467bf864b1 = L.map(
+                "map_7ceabbf5200af4bc44c5e5467bf864b1",
+                {
+                    center: [55.7558, 37.6173],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d96efedba25cb69b335ba1fd44597372 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d96efedba25cb69b335ba1fd44597372.addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+            var marker_01053da2dd41aaf20bc0095e6fba0eb5 = L.marker(
+                [55.7539, 37.6208],
+                {
+}
+            ).addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+            var icon_d3fcfb97abd462ce778f8970dcd2d765 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc27bccee3a0aa2cea107c04496c324c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aabbfb8efb79b209bf9ebde3bd9e39df = $(`<div id="html_aabbfb8efb79b209bf9ebde3bd9e39df" style="width: 100.0%; height: 100.0%;">Красная площадь<br>Приоритет: 10<br>Время посещения: 30 мин</div>`)[0];
+                popup_bc27bccee3a0aa2cea107c04496c324c.setContent(html_aabbfb8efb79b209bf9ebde3bd9e39df);
+            
+        
+
+        marker_01053da2dd41aaf20bc0095e6fba0eb5.bindPopup(popup_bc27bccee3a0aa2cea107c04496c324c)
+        ;
+
+        
+    
+    
+                marker_01053da2dd41aaf20bc0095e6fba0eb5.setIcon(icon_d3fcfb97abd462ce778f8970dcd2d765);
+            
+    
+            var marker_49b374c2da3ef1d5ab3bf9ec8a1485d9 = L.marker(
+                [55.7297, 37.6047],
+                {
+}
+            ).addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+            var icon_b1c46760ca35d3a11162b9abb2055f22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c570b3e000b9a40f358d847798fecd06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c55f69336e6a657b4154bdf8b9d8ef4 = $(`<div id="html_4c55f69336e6a657b4154bdf8b9d8ef4" style="width: 100.0%; height: 100.0%;">Парк Горького<br>Приоритет: 8<br>Время посещения: 45 мин</div>`)[0];
+                popup_c570b3e000b9a40f358d847798fecd06.setContent(html_4c55f69336e6a657b4154bdf8b9d8ef4);
+            
+        
+
+        marker_49b374c2da3ef1d5ab3bf9ec8a1485d9.bindPopup(popup_c570b3e000b9a40f358d847798fecd06)
+        ;
+
+        
+    
+    
+                marker_49b374c2da3ef1d5ab3bf9ec8a1485d9.setIcon(icon_b1c46760ca35d3a11162b9abb2055f22);
+            
+    
+            var marker_5eb565489c7b4c7809d2b0c871774bc7 = L.marker(
+                [55.8297, 37.6347],
+                {
+}
+            ).addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+            var icon_660456f351ab28d9cc02a8e529382b9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d30d37ff315ddbb1f509997970d8d33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_102725937797f088eda125d3d470345e = $(`<div id="html_102725937797f088eda125d3d470345e" style="width: 100.0%; height: 100.0%;">ВДНХ<br>Приоритет: 7<br>Время посещения: 60 мин</div>`)[0];
+                popup_7d30d37ff315ddbb1f509997970d8d33.setContent(html_102725937797f088eda125d3d470345e);
+            
+        
+
+        marker_5eb565489c7b4c7809d2b0c871774bc7.bindPopup(popup_7d30d37ff315ddbb1f509997970d8d33)
+        ;
+
+        
+    
+    
+                marker_5eb565489c7b4c7809d2b0c871774bc7.setIcon(icon_660456f351ab28d9cc02a8e529382b9e);
+            
+    
+            var marker_97150c700cd114ade8db6cf7b80aed5d = L.marker(
+                [55.8234, 37.6394],
+                {
+}
+            ).addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+            var icon_d8c3a00bace8e088df89f4459dd1a441 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32d6344ef0e4c9fb33ebe14d5778e0c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfb3b7866ff9e9828307b7eff931f280 = $(`<div id="html_cfb3b7866ff9e9828307b7eff931f280" style="width: 100.0%; height: 100.0%;">Музей космонавтики<br>Приоритет: 6<br>Время посещения: 40 мин</div>`)[0];
+                popup_32d6344ef0e4c9fb33ebe14d5778e0c8.setContent(html_cfb3b7866ff9e9828307b7eff931f280);
+            
+        
+
+        marker_97150c700cd114ade8db6cf7b80aed5d.bindPopup(popup_32d6344ef0e4c9fb33ebe14d5778e0c8)
+        ;
+
+        
+    
+    
+                marker_97150c700cd114ade8db6cf7b80aed5d.setIcon(icon_d8c3a00bace8e088df89f4459dd1a441);
+            
+    
+            var marker_66ab0e9579057bfc59689620383a0687 = L.marker(
+                [55.7417, 37.6208],
+                {
+}
+            ).addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+            var icon_9926a52edec5ed07ee5d3086146c72a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e67490486d5d81dc67c5fe3d34e604a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c2c42faaf585a6ff37861ec456ca01c = $(`<div id="html_5c2c42faaf585a6ff37861ec456ca01c" style="width: 100.0%; height: 100.0%;">Третьяковская галерея<br>Приоритет: 9<br>Время посещения: 90 мин</div>`)[0];
+                popup_5e67490486d5d81dc67c5fe3d34e604a.setContent(html_5c2c42faaf585a6ff37861ec456ca01c);
+            
+        
+
+        marker_66ab0e9579057bfc59689620383a0687.bindPopup(popup_5e67490486d5d81dc67c5fe3d34e604a)
+        ;
+
+        
+    
+    
+                marker_66ab0e9579057bfc59689620383a0687.setIcon(icon_9926a52edec5ed07ee5d3086146c72a6);
+            
+    
+            var poly_line_6006123c249e52ca785154ef81f49224 = L.polyline(
+                [[55.7539, 37.6208], [55.7417, 37.6208]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+            var circle_marker_cf6cc56c1fe09dfaf7f05f9bcb0f5f44 = L.circleMarker(
+                [55.7539, 37.6208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+        var popup_47c67f83fabf39e4d1ab9ca69c2d1271 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75c9bc70585e8e718929872a7743ca9f = $(`<div id="html_75c9bc70585e8e718929872a7743ca9f" style="width: 100.0%; height: 100.0%;">Точка 1: Красная площадь</div>`)[0];
+                popup_47c67f83fabf39e4d1ab9ca69c2d1271.setContent(html_75c9bc70585e8e718929872a7743ca9f);
+            
+        
+
+        circle_marker_cf6cc56c1fe09dfaf7f05f9bcb0f5f44.bindPopup(popup_47c67f83fabf39e4d1ab9ca69c2d1271)
+        ;
+
+        
+    
+    
+            var circle_marker_6bd9aca8e8c654efe8566695c99f7b30 = L.circleMarker(
+                [55.7417, 37.6208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_7ceabbf5200af4bc44c5e5467bf864b1);
+        
+    
+        var popup_28141b5ee5540588e253820e232f9f77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bb1513e7b68e946226a2d773db00c4b = $(`<div id="html_7bb1513e7b68e946226a2d773db00c4b" style="width: 100.0%; height: 100.0%;">Точка 2: Третьяковская галерея</div>`)[0];
+                popup_28141b5ee5540588e253820e232f9f77.setContent(html_7bb1513e7b68e946226a2d773db00c4b);
+            
+        
+
+        circle_marker_6bd9aca8e8c654efe8566695c99f7b30.bindPopup(popup_28141b5ee5540588e253820e232f9f77)
+        ;
+
+        
+    
+</script>
+</html>
